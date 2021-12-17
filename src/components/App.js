@@ -48,11 +48,10 @@ class App extends Component {
           
                     </div>
                 }
-              </div> : // if authedUser is not there then will ask to login 
-              <Switch>
-                  <Route path='*' component={props => <Login {...props} />} />
-                 
-                  </Switch>
+              </div> 
+              : // if authedUser is not there then will ask to login 
+                <Route path='*' component={props => <Login {...props} />} />
+
             }
               
           </div>
