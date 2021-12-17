@@ -1,0 +1,234 @@
+.body-color {
+  background-color: #2b292e;
+}
+.login-header {
+  text-align: center;
+}
+.login-letter {
+  color: #b7b8b8;
+  padding: 20px;
+  text-align: center;
+}
+.dropdown {
+  margin: 20px;
+}
+.ui.card.login {
+  width: 500px !important;
+  height: 260px !important;
+  margin: 0 auto !important;
+  padding: 20px !important;
+}
+.login-container {
+  padding: 50px;
+}
+.container {
+  width: 650px;
+  margin: 50px auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.ui.secondary.pointing.menu {
+  background: white;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.ui.button.login {
+  background-color: #6f439c !important;
+  color: white !important;
+}
+
+.ui.card {
+  margin-bottom: 20px !important;
+  width: 90% !important;
+}
+
+.card-header {
+  font-size: 15px !important;
+  margin-left: 10px;
+}
+.card-image {
+  margin-top: 10px;
+}
+.ui.vertical.divider:after {
+  content: none !important;
+}
+.ui.vertical.divider:before {
+  height: calc(200% - 1rem) !important;
+}
+.ui.vertical.divider {
+  top: 64% !important;
+  left: 35% !important;
+  height: 34% !important;
+}
+
+.card-description {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+.card-description-title {
+  position: relative;
+  right: 50%;
+}
+.card-paragraph {
+  margin-bottom: 0;
+}
+.card-btn {
+  position: absolute;
+  left: 47%;
+  top: 75%;
+  width: 210px;
+}
+.card-description-question-page {
+  position: absolute;
+  left: 38%;
+  top: 30%;
+}
+.card-btn-question-page {
+  position: absolute;
+  left: 45%;
+  top: 78%;
+  width: 270px !important;
+}
+.login-dropdown {
+  margin-left: 0px;
+  width: 100%;
+}
+.new-poll-header {
+  margin-top: 10px !important;
+  margin-bottom: 0;
+}
+.new-poll-title {
+  margin-left: 20px;
+}
+
+.form-container {
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+.new-poll-btn {
+  width: 90%;
+  margin: 28px !important;
+}
+.question-container {
+  margin-left: 20px;
+}
+
+.question-result-card {
+  height: 600px;
+}
+.ui.vertical.divider.question-result-card-divider {
+  top: 57% !important;
+  left: 30% !important;
+  height: 43% !important;
+}
+.question-result-card-description {
+  position: absolute;
+  right: 48%;
+  top: 15%;
+}
+.question-result-title {
+  color: gray;
+}
+.question-result-nested-card {
+  width: 60%;
+  position: absolute;
+  left: 38%;
+  top: 30%;
+}
+.question-result-options-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+.question-result-progress {
+  width: 80%;
+  margin-left: 30px !important;
+}
+.question-result-votes {
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 10px !important;
+}
+.leaderboard-container {
+  width: 600px;
+  margin: 50px;
+}
+.leaderboard-description {
+  position: absolute;
+  right: 26%;
+  top: 15%;
+}
+.leaderboard-horizontal-divider {
+  width: 215px !important;
+}
+.leaderboard-count {
+  position: absolute;
+  right: 4%;
+}
+
+.leaderboard-score {
+  width: 80px;
+  height: 100px;
+  background-color: #eee;
+  position: absolute;
+  right: 5%;
+  top: 28%;
+  border-radius: 10%;
+}
+.label-score-color {
+  color: white !important;
+  background-color: #6f439c !important;
+  margin-left: 25px !important;
+}
+h3.leaderboard {
+  padding: 5px;
+  text-align: center;
+}
+.ui.vertical.divider.leaderboard-card-divider {
+  top: 58% !important;
+  left: 32% !important;
+  height: 43% !important;
+}
+.ui.vertical.divider.leaderboard-card-divider-description {
+  top: 58% !important;
+  left: 77% !important;
+  height: 43% !important;
+}
+.menu-color {
+  background-color: #6f439c !important;
+}
+.menu-color a {
+  color: white !important;
+  font-weight: bold !important;
+}
+.menu-color a.ui.label {
+  color: black !important;
+}
+
+.nav-btn {
+  background-color: transparent !important;
+  color: white !important;
+  /* margin-right: 10px !important; */
+}
+.nav-link {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.nav-link-active {
+  border-bottom: 2px solid black;
+  /* padding-top: 15px; */
+}
+.not-found {
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
