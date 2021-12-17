@@ -4,7 +4,7 @@ import { Button, Image, Card, Divider, Checkbox, Form } from 'semantic-ui-react'
 import { formatQuestion } from '../utils/helpers'
 import QuestionResult from './QuestionResult'
 import { handleAddAnswer } from '../actions/shared'
-import { Redirect } from 'react-router-dom'
+import NotFound from './NotFound'
 class QuestionPage extends React.Component {
     state = {
         isSubmitted: false,
@@ -57,7 +57,7 @@ class QuestionPage extends React.Component {
 
         // if the new added question is not there in our fake database then will redirect him to the home page
         if(question === null) {
-            return <Redirect to='/' />
+            return <NotFound />
         }
         // if user submitted the form then will take him to the result page
         if(isSubmitted === true) {
